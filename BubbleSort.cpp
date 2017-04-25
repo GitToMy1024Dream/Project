@@ -37,3 +37,14 @@ void BubbleSort(T *_array, size_t _size)
 			break;
 	}
 }
+int main()
+{
+	int _array1[] = { 3,2,7,8,1,9,0,11,23,4 };
+	char _array2[] = { 'c','w','y','m','d','s','q','o','a','b' };
+	BubbleSort<int, Greate<int>>(_array1,sizeof(_array1)/sizeof(_array1[0]));//升序int
+	BubbleSort<int, Less<int>>(_array1, sizeof(_array1) / sizeof(_array1[0]));//降序int
+	BubbleSort<char, Greate<char>>(_array2, sizeof(_array2) / sizeof(_array2[0]));//升序char
+	BubbleSort<char, Less<char>>(_array2, sizeof(_array2) / sizeof(_array2[0]));//降序char
+	system("pause");
+	return 0;
+}
