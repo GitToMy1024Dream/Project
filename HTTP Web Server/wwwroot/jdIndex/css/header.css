@@ -1,0 +1,174 @@
+.shortcut{
+	width: 100%;
+	height: 31px;
+	background-color: #e3e4e5;
+}
+.logo_left_shadow{
+	width: 190px;
+	height: 170px;
+	box-shadow: -2px 0px 2px #E3E4E5;
+}
+.logo_box{
+	box-shadow:2px 0px 2px #E3E4E5;
+}
+.shortcut_nav{
+	width: 1190px;
+	height: 31px;
+	margin: 0px auto;
+}
+.shortcut_nav_left li{
+	float: left;
+	margin-right: 10px;
+	line-height: 31px;
+}
+.shortcut_nav_left_div1{
+	width: 16px;
+	height: 31px;
+	display: block;
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: 0px 9px;
+	float: left;
+}
+.district_map{
+	width: 55px;
+	height: 30px;
+	padding-left: 10px;
+	border: 1px solid #e3e4e5;
+	border-bottom: 0px;
+}
+.district_map_hover{
+	background-color: #FFF;
+    border: 1px solid #CCC;
+	border-bottom: 0px;
+}
+.district_map_nav{
+	position: absolute;
+	width: 300px;
+	height: 160px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-top: 0px;
+	padding: 10px;
+	display: none;
+	left: 0px;
+}
+.myblock{
+	display:block;
+}
+.QR_code{
+	float: right;
+}
+.district_map_nav li{
+	float: left;
+    width: 50px;
+    text-align: center;	
+}
+.district_map_nav li:hover{
+	background-color: #E3E4E5;
+}
+.shortcut_nav_right{
+	float: right;
+}
+.shortcut_nav_right li{
+	float: left;
+	width: 70px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+}
+.shortcut_nav_right li.spacer {
+	overflow: hidden;
+	margin: 11px 5px 0;
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+}
+.inputSearch{
+	width: 500px;
+	height: 33px;
+	border: 1px solid #DC143C;
+}
+.header_nav{
+	width: 1190px;
+	height: 140px;
+	margin: 0px auto;
+}
+.header_nav_right{
+	width: 850px;
+	height: 60px;
+	float: right;
+}
+.header_nav_right2{
+	width: 850px;
+	height: 20px;
+	float: right;
+}
+.header_nav_right2 li{
+	float:left;
+	width: 75px;
+}
+.header_nav_down{
+	width: 990px;
+	height: 60px;
+	float: right;
+}
+.header_nav_right_cart{
+	width: 120px;
+	height: 33px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	float: left;
+	margin-left: 35px;
+	margin-top: 22px;
+}
+.navitems {
+	width: 960px;
+	height: 40px;
+	float: right;
+}
+.navitems li {
+	list-style: none;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	width:76px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 0px;
+}
+.myjdlist_item {
+	display: none;
+	width: 200px;
+	height: 150px;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	margin-left: -1px;
+	border-top: none;
+	padding: 20px;
+	position: absolute;
+	z-index: 100;
+}
+
+.myjdlist_item li {
+	float: left;
+	width: 80px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 15px;
+}
+.header_top_nav_hover {
+	border-bottom: none;
+	background-color: #FFF;
+}
+
+
+#header_top_nav_right_item2
+{
+	height: 250px;
+	width: 190px;
+	
+}
+#header_top_nav_right_item2 li{
+	float: right;
+}
